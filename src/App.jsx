@@ -36,7 +36,7 @@ export default App
     - To integrate router in react application, we can use a third-party package: 'react-router-dom'
     - Components:
       - BrowserRouter: A HOC which has all the functionality for routing. React App component needs to be wrapped around this component
-      - Routes: Wrapper component for all routes that need to be declared
+      - Routes: Wrapper component for all routes that need to be declared (Acts like switch case, where it matches the current route with the set of declared routes)
       - Route: In this component, we can delcare which component needs to be rendered whenever a specific route is visited
         - path: Specify the route
         - element: Specify the component
